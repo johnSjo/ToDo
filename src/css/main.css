@@ -39,7 +39,7 @@ h1 {
 }
 
 .centerBg{
-    flex:1;
+    flex:1 0 auto;
 }
 
 .center{
@@ -83,6 +83,7 @@ h1 {
     margin-right: 28px;
     padding-bottom: 4px;
     border-bottom: solid 3px #ffffff;
+    cursor: pointer;
 }
 
 .filterMenu li.active{
@@ -123,6 +124,7 @@ h1 {
     width: 36px;
     border-radius: 3px;
     margin: 6px;
+    cursor: pointer;
 }
 .check {
     background-image: url("../assets/images/checkButton.png");

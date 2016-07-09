@@ -1,4 +1,5 @@
 import React from "react";
+import 'babel-polyfill';
 
 import Header from "./Header";
 import AddTask from "./AddTask";
