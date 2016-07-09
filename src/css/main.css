@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+.body{
+    font-family: Roboto;
+    font-size: 18px;
+    overflow-y: scroll;
+}
+
+.appContainer{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.headerBg {
+    height: 96px;
+    background-color: #d9e9d9;
+    border-bottom: solid 6px #60b761;
+}
+
+.header {
+    max-width: 928px;
+    height: inherit;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 48px;
+    mix-blend-mode: multiply;
+    margin-right: 12px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #0093a1;
+    text-transform: uppercase;
+}
+
+.centerBg{
+    flex:1;
+}
+
+.center{
+    max-width: 928px;
+    margin: auto;
+}
+
+.pageHeader{
+    color: #333333;
+    font-size: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.addTaskForm{
+    display: flex;
+    align-items: center;
+}
+
+.inputTextField{
+    width: 460px;
+    height: 36px;
+    border: solid 2px #cccccc;
+    border-radius: 3px;
+    margin-right: 6px;
+    padding-left: 9px;
+}
+
+.inputSubmitButton{
+    background-image: url("../assets/images/addButton.png");
+}
+
+.filterMenu{
+    display: flex;
+    align-items: center;
+    height: 85px;
+    width: 50%;
+}
+
+.filterMenu li {
+    margin-right: 28px;
+    padding-bottom: 4px;
+    border-bottom: solid 3px #ffffff;
+}
+
+.filterMenu li.active{
+    border-bottom: solid 3px #666666;
+}
+
+.tasksContainer{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.task {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: solid 1px #efefef;
+}
+
+.task:focus, .task:hover{
+    background-color: rgba(0, 147, 161, 0.15);
+}
+
+.task:hover .taskButtonsContainer, .task:focus .taskButtonsContainer{
+    display: flex;
+}
+
+.taskButtonsContainer{
+    align-items: center;
+    margin-right: 18px;
+    display: none;
+}
+
+.button {
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 36px;
+    border-radius: 3px;
+    margin: 6px;
+}
+.check {
+    background-image: url("../assets/images/checkButton.png");
+}
+
+.remove{
+    background-image: url("../assets/images/removeButton.png");
+}
+
+.task .description{
+    width: 300px;
+    margin-left: 38px;
+    margin-right: auto;
+    color: #666666;
+}
+
+.taskMarker{
+    width: 10px;
+    height: 100px;
+}
+
+.todo{
+    background-color: #0093a1;
+}
+
+.done{
+    background-color: #60b761;
+}
+
+.removed{
+    background-color: #cccccc;
+}
+
+.footerBg{
+    height: 48px;
+    background-color: rgba(0,147,161,0.75);
+    margin-top: 55px;
+}
+
+.footer{
+    max-width: 928px;
+    height: inherit;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.footer p {
+    color: #ffffff;
+}
